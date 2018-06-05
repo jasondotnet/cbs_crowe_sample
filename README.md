@@ -2,7 +2,7 @@
 ##### Submitted by Jason Burton <jason_burton@yahoo.com>
 _Custom Business Solutions_
  
- 
+
 Coding Exercise Instructions:
 
 Write a Hello World program  :arrows_clockwise:
@@ -18,6 +18,12 @@ Write a Hello World program  :arrows_clockwise:
 
 - [ ] Feel free to use a github program to store the coding exercise as I know that’s typically easier to use.
 
+
+`
+ imports CroweHorwath.Console; // Console 
+ imports CroweHorwath.HelloWorld.WebApi; // WebApi 2 
+ imports CroweHorwath.HelloWorld.WebApi.Tests; // Unit Tests
+`
 
 
 

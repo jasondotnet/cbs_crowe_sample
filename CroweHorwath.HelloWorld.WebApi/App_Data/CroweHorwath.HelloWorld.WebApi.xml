@@ -4,6 +4,50 @@
         <name>CroweHorwath.HelloWorld.WebApi</name>
     </assembly>
     <members>
+        <member name="T:CroweHorwath.HelloWorld.BundleConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)">
+            <summary>
+            
+            </summary>
+            <param name="bundles"></param>
+        </member>
+        <member name="T:CroweHorwath.HelloWorld.FilterConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)">
+            <summary>
+            
+            </summary>
+            <param name="filters"></param>
+        </member>
+        <member name="T:CroweHorwath.HelloWorld.RouteConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)">
+            <summary>
+            
+            </summary>
+            <param name="routes"></param>
+        </member>
+        <member name="T:CroweHorwath.HelloWorld.WebApiConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
         <member name="M:CroweHorwath.HelloWorld.Areas.HelpPage.ApiDescriptionExtensions.GetFriendlyId(System.Web.Http.Description.ApiDescription)">
             <summary>
             Generates an URI-friendly ID for the <see cref="T:System.Web.Http.Description.ApiDescription"/>. E.g. "Get-Values-id_name" instead of "GetValues/{id}?name={name}"
@@ -480,6 +524,42 @@
             Initializes a new instance of the <see cref="T:CroweHorwath.HelloWorld.Areas.HelpPage.XmlDocumentationProvider"/> class.
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
+        </member>
+        <member name="T:CroweHorwath.HelloWorld.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Controllers.HomeController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CroweHorwath.HelloWorld.WebApiApplication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.WebApiApplication.Application_Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CroweHorwath.HelloWorld.Models.HelloWorld">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CroweHorwath.HelloWorld.Models.HelloWorld.Value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Models.HelloWorld.#ctor">
+            <summary>
+            
+            </summary>
         </member>
     </members>
 </doc>

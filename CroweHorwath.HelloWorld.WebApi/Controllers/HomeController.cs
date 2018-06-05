@@ -4,10 +4,17 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace HelloWorld.Controllers
+namespace CroweHorwath.HelloWorld.Controllers
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class HomeController : Controller
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";

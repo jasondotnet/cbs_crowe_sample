@@ -5,8 +5,8 @@ using System.Net.Http;
 using System.Text;
 using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using HelloWorld;
-using HelloWorld.Controllers;
+using CroweHorwath.HelloWorld;
+using CroweHorwath.HelloWorld.Controllers;
 
 namespace HelloWorld.Tests.Controllers
 {

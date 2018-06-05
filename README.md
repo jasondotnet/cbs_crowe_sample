@@ -1,11 +1,11 @@
-## Crowe Horwath Sample
-##### Submitted by Jason Burton
+## Crowe Horwath Coding Excercise
+##### Submitted by Jason Burton <jason_burton@yahoo.com>
 _Custom Business Solutions_
  
  
 Coding Exercise Instructions:
 
-Write a Hello World program 
+Write a Hello World program  :arrows_clockwise:
 - [ ] The program has 1 current business requirement a write **Hello World**  to the console/screen. 
 
 - [ ] The program should have an API that is separated from the program logic to eventually support mobile applications, web applications, console applications or windows services. 

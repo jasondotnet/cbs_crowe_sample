@@ -483,6 +483,36 @@
             This represents an invalid sample on the help page. There's a display template named InvalidSample associated with this class.
             </summary>
         </member>
+        <member name="M:CroweHorwath.HelloWorld.Areas.HelpPage.InvalidSample.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="errorMessage"></param>
+        </member>
+        <member name="P:CroweHorwath.HelloWorld.Areas.HelpPage.InvalidSample.ErrorMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Areas.HelpPage.InvalidSample.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Areas.HelpPage.InvalidSample.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Areas.HelpPage.InvalidSample.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:CroweHorwath.HelloWorld.Areas.HelpPage.ObjectGenerator">
             <summary>
             This class will create an object of a given type and populate it with sample data.
@@ -514,6 +544,36 @@
             This represents a preformatted text sample on the help page. There's a display template named TextSample associated with this class.
             </summary>
         </member>
+        <member name="M:CroweHorwath.HelloWorld.Areas.HelpPage.TextSample.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="P:CroweHorwath.HelloWorld.Areas.HelpPage.TextSample.Text">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Areas.HelpPage.TextSample.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Areas.HelpPage.TextSample.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Areas.HelpPage.TextSample.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:CroweHorwath.HelloWorld.Areas.HelpPage.XmlDocumentationProvider">
             <summary>
             A custom <see cref="T:System.Web.Http.Description.IDocumentationProvider"/> that reads the API documentation from an XML documentation file.
@@ -535,6 +595,43 @@
             
             </summary>
             <returns></returns>
+        </member>
+        <member name="T:CroweHorwath.HelloWorld.Controllers.ValuesController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Controllers.ValuesController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:CroweHorwath.HelloWorld.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
         </member>
         <member name="T:CroweHorwath.HelloWorld.WebApiApplication">
             <summary>

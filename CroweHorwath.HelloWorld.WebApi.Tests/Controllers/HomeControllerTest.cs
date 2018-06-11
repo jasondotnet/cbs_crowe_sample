@@ -1,10 +1,9 @@
 ﻿using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using HelloWorld;
 using CroweHorwath.HelloWorld;
 using CroweHorwath.HelloWorld.Controllers;
 
-namespace HelloWorld.Tests.Controllers
+namespace CroweHorwath.HelloWorld.WebApi.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest
